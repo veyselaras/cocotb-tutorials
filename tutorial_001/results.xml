@@ -1,7 +1,7 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1769363892" />
-    <testcase name="write_after_read" classname="tb_sync_fifo" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_002/tb/tb_sync_fifo.py" lineno="65" time="0.012901782989501953" sim_time_ns="855.0" ratio_time="66269.91018959973" />
-    <testcase name="write_and_read_1by1" classname="tb_sync_fifo" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_002/tb/tb_sync_fifo.py" lineno="102" time="0.010924100875854492" sim_time_ns="855.0" ratio_time="78267.31094087605" />
+    <property name="random_seed" value="1769423938" />
+    <testcase name="write_after_read" classname="tb_sync_fifo" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_001/tb/tb_sync_fifo.py" lineno="65" time="0.005246162414550781" sim_time_ns="855.0" ratio_time="162976.2734048355" />
+    <testcase name="write_and_read_1by1" classname="tb_sync_fifo" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_001/tb/tb_sync_fifo.py" lineno="102" time="0.004745960235595703" sim_time_ns="855.0" ratio_time="180153.216115744" />
   </testsuite>
 </testsuites>
