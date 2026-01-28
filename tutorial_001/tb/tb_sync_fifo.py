@@ -70,9 +70,7 @@ async def write_after_read(dut): # Tum verileri yaz sonra tum verileri oku
 	monitors_data = [] # Monitorun yakaladigi verileri saklamak icin liste
 	expected_data = [random.randint(0, 255) for _ in range(16)] # Gonderilecek rastgele veriler
 
-	# 
-	cocotb.start_soon(Clock(dut.clk, 10, "ns").start()) 
-
+	cocotb.start_soon(Clock(dut.clk, 10, "ns").start()) # Saat sinyali baslat
 
 	await reset_handler(dut) # Test baslangicinda reset uygula
 	await RisingEdge(dut.clk) # Saat sinyalinin yukselen kenarini bekle
@@ -105,6 +103,7 @@ async def write_after_read(dut): # Tum verileri yaz sonra tum verileri oku
 	""" Karsilastirma yap eger beklenen ve monitorun yakaladigi veriler ayni degilse hata mesaji ver """
 	assert monitors_data == expected_data, f"Hata! Giden: {expected_data}, Gelen: {monitors_data}"
 	dut._log.info("Test Basarili")
+
 
 # Bir yazma bir okuma islemi yapan test senaryosu
 @cocotb.test()
