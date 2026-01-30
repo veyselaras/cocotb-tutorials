@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1769612269" />
-    <testcase name="nonblocking_example" classname="cocotb_queue_example_05" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_002/tb/cocotb_queue_example_05.py" lineno="82" time="0.0048334598541259766" sim_time_ns="5000.0" ratio_time="1034455.6799684309" />
+    <property name="random_seed" value="1769777516" />
+    <testcase name="blocking_uygulama" classname="cocotb_queue_example_01" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_002/tb/cocotb_queue_example_01.py" lineno="110" time="0.0007429122924804688" sim_time_ns="100.0" ratio_time="134605.39152759948" />
   </testsuite>
 </testsuites>

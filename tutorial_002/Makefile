@@ -20,11 +20,11 @@ VERILOG_SOURCES = $(shell pwd)/rtl/dummy.v
 TOPLEVEL = dummy
 
 # Python test modülü (tb klasöründeki dosya, .py olmadan)
-# MODULE = cocotb_queue_example_01
+MODULE = cocotb_queue_example_01
 # MODULE = cocotb_queue_example_02
 # MODULE = cocotb_queue_example_03
 # MODULE = cocotb_queue_example_04
-MODULE = cocotb_queue_example_05
+# MODULE = cocotb_queue_example_05
 
 # ============================================
 # PYTHON PATH AYARI

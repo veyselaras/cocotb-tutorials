@@ -108,6 +108,7 @@ async def number_receiver(queue): # Sayı alma ve toplama
 		if number == None: # Bitiş sinyali alındıysa döngüden çık
 			logger.info("[RECEIVER] Bitis sinyali alindi, islem bitti.")
 			break
+		logger.info(f"[RECEIVER] Queue'den {number} verisi alindi.")
 		summ += number
 
 	logger.info(f"[RECEIVER] islem basari toplam = {summ}!")

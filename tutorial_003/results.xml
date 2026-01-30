@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1769785758" />
+    <testcase name="tinyShifterTest" classname="tb_TinyShifter" file="/home/veysel/Desktop/cocotb_tutorial/tutorial_003/tb/tb_TinyShifter.py" lineno="163" time="0.00409245491027832" sim_time_ns="255.0" ratio_time="62309.788523157586" />
+  </testsuite>
+</testsuites>
