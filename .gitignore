@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# cocotb/simulation outputs
+sim_build/
+results.xml
+*.vvp
+*.vcd
